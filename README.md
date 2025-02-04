@@ -1,4 +1,4 @@
-# College Club & Event Management App
+# VITVerse - Your gateway to campus events
 
 ## 📌 Overview
 This mobile application is designed to help students track and manage events organized by various clubs and chapters within the college. Users can log in using their college email, explore ongoing and upcoming events, register for activities, and receive participation certificates. Club leads can manage events, registrations, and more. An AI-powered feature is integrated to provide project suggestions and ideas to students.
