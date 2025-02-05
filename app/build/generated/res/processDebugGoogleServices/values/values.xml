@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">878805459499</string>
+    <string name="google_api_key" translatable="false">AIzaSyAx6ZvxBb4y_YBZ8N3N7jYofWaJ8tpTYYY</string>
+    <string name="google_app_id" translatable="false">1:878805459499:android:4758f7004929f1aad6006e</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAx6ZvxBb4y_YBZ8N3N7jYofWaJ8tpTYYY</string>
+    <string name="google_storage_bucket" translatable="false">clubschap-app.firebasestorage.app</string>
+    <string name="project_id" translatable="false">clubschap-app</string>
+</resources>
