@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "878805459499",
+    "project_id": "clubschap-app",
+    "storage_bucket": "clubschap-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:878805459499:android:4758f7004929f1aad6006e",
+        "android_client_info": {
+          "package_name": "com.example.clubschap_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAx6ZvxBb4y_YBZ8N3N7jYofWaJ8tpTYYY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

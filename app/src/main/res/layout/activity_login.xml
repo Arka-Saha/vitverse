@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginbg2"
+    tools:context=".LoginActivity">
+
+
+    <TextView
+        android:id="@+id/appname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/hindsb"
+        android:text="VITVerse"
+        android:textSize="48sp"
+        android:layout_marginTop="60dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/appcaption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your gateway to campus culture"
+        android:textSize="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/appname"
+        android:textColor="@color/black"
+        android:fontFamily="@font/internthin"/>
+
+    <TextView
+        android:id="@+id/regheading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:fontFamily="@font/instrusans"
+        android:text="Registration Number"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        app:layout_constraintTop_toBottomOf="@id/appcaption"
+        android:layout_marginTop="75dp"
+        app:layout_constraintHorizontal_bias="0"
+        android:layout_marginLeft="36dp"/>
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/login_input_regno"
+        android:layout_width="340dp"
+        android:layout_height="59dp"
+        android:hint="enter your registration number"
+        android:background="#83D9D9D9"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:fontFamily="@font/intertight"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@color/black"
+        android:paddingLeft="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/regheading" />
+
+
+    <TextView
+        android:id="@+id/passheading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="36dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/instrusans"
+        android:text="Password"
+        android:textSize="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="40dp"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_input_regno" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/login_input_pass"
+        android:layout_width="340dp"
+        android:fontFamily="@font/intertight"
+        android:inputType="numberPassword"
+        android:paddingLeft="15dp"
+        android:layout_height="59dp"
+        android:hint="enter your password"
+        android:background="#83D9D9D9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@color/black"
+        app:layout_constraintTop_toBottomOf="@+id/passheading" />
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:text="Begin Exploring"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/card_round"
+        android:fontFamily="@font/instrusans"
+        android:textSize="24dp"
+        android:layout_marginTop="110dp"
+        app:layout_constraintTop_toBottomOf="@+id/login_input_pass" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_btn"
+        android:text="or, Join Us Now"
+        android:fontFamily="@font/instrusans"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
