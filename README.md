@@ -32,8 +32,9 @@ Here are some snapshots of the app interface:
 
 ![Login Screen](img/login.png)
 ![Event List](img/user.png)
-![Event Details](images/event_details.png)
-![Club Management](images/club_management.png)
+<img src="img/img1.jpeg" alt="Description" width="340">
+<img src="img/img2.jpeg" alt="Description" width="340"> <img src="img/img3.jpg" alt="Description" width="340">
+
 
 ## 📌 Future Enhancements
 - 📜 Event feedback system
