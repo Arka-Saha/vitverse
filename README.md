@@ -21,11 +21,11 @@ This mobile application is designed to help students track and manage events org
 - 📡 Cloud-based data storage
 
 ## 🚀 Tech Stack
-- **Frontend:** Flutter / React Native
-- **Backend:** Node.js / Django
-- **Database:** Firebase / PostgreSQL
-- **AI Integration:** OpenAI / Llama3 / Custom AI models
-- **Cloud Hosting:** AWS / Google Cloud
+- **Frontend:** XML
+- **Backend:** Java / Python
+- **Database:** Firebase
+- **AI Integration:** OpenAI / Llama3 / Llama LLM
+- **Cloud Hosting:** Google Cloud / PythonAnywhere
 
 ## 📸 UI Screenshots
 Here are some snapshots of the app interface:
